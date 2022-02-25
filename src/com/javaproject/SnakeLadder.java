@@ -8,7 +8,7 @@ public class SnakeLadder {
 		static final int ladder = 1;
 		static final int snake = 2;
 		
-		public static void main(String[] args) {
+			public static void main(String[] args) {
 			int position = 0;
 			
 			while (position < 100) {
@@ -30,12 +30,17 @@ public class SnakeLadder {
 					System.out.println("Snake");
 					position = position - dice;
 				}
-				else {
+				
+				else
+				{
 					System.out.println("No Play");
 				}
+				
 				if (position < 0)
 					position = 0;
+				
 				System.out.println("position: " + position);
-				}         
+				}       
+		        
 			}
 		}
